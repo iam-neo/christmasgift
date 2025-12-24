@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    width: 100%; /* Ensure the video container takes up the full width */
+    padding-top: 56.25%; /* 16:9 aspect ratio (responsive) */
+    /* Adjust padding-top to match the aspect ratio of your video if necessary */
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the video fill the entire container */
+    height: 100%; /* Make the video fill the entire container */
+}
+
+/* Add additional styling as needed */
+
+/* Media queries for adjusting layout on smaller screens */
+@media screen and (max-width: 768px) {
+    .video-container {
+        padding-top: 75%; /* Adjust the aspect ratio for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .video-container {
+        padding-top: 100%; /* Adjust the aspect ratio for even smaller screens */
+    }
+}
