@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Redirect to another page when the video ends
     video.addEventListener("ended", function() {
-        window.location.href = "https://www.google.com/"; // Change this to the desired page URL
+        window.location.href = "christmas/index.html"; // Change this to the desired page URL
     });
 });
