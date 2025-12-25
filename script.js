@@ -18,7 +18,7 @@ function updateCountdown() {
   // Check if the countdown is over
   if (timeDifference <= 0) {
     clearInterval(countdownInterval);
-    window.location.href = 'vd/index.html'; // Redirect to another webpage
+    window.location.href = 'video/index.html'; // Redirect to another webpage
   }
 }
 
